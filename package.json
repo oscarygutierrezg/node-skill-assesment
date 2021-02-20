@@ -1,0 +1,25 @@
+{
+  "name": "skill-assesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "./node_modules/nodemon/bin/nodemon.js  node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mockery": "^2.1.0",
+    "nodemon": "^2.0.7",
+    "sinon": "^9.2.4"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2",
+    "axios": "^0.21.1"
+  }
+}
